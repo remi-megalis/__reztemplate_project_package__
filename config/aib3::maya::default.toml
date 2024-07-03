@@ -1,0 +1,5 @@
+[SOFTWARE]
+dynaconf_merge = true
+requires = [
+   "legacy_pipeline-0',
+]
