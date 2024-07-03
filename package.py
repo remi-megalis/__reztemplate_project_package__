@@ -43,7 +43,6 @@ def commands():
 
     # Set OCIO
     ocio_directory = '{}/ocio/'.format(this.root)
-    print("ocio_directory", ocio_directory)
     ocio_directory = pathlib.Path(ocio_directory)
     env.OCIO = str(ocio_directory.joinpath('config.ocio'))
 
